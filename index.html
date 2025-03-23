@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 Movie Recommendation System</h1>
+
+        <!-- User Selection -->
+        <div class="user-section">
+            <label for="userSelect">👤 Select User:</label>
+            <select id="userSelect"></select>
+            <button onclick="addUser()">➕ Add User</button>
+            <button onclick="removeUser()">❌ Remove User</button>
+        </div>
+
+        <!-- Movie Selection -->
+        <div class="movie-section">
+            <label for="movieSelect">📽️ Choose a Movie:</label>
+            <select id="movieSelect"></select>
+            <button onclick="watchMovie()">▶ Watch</button>
+        </div>
+
+        <!-- Movie Display -->
+        <div class="movie-display">
+            <img id="moviePoster" src="" alt="Movie Poster">
+            <h2 id="movieTitle">Select a Movie</h2>
+            <p id="movieGenres"></p>
+            <a id="movieTrailer" href="#" target="_blank">▶ Watch Trailer</a>
+        </div>
+
+        <!-- Watch History -->
+        <div class="history-section">
+            <h3>📜 Watch History</h3>
+            <ul id="watchHistory"></ul>
+            <button onclick="clearHistory()">🗑️ Clear History</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

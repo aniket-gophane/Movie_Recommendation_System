@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.user-section, .movie-section, .history-section {
+    margin: 15px 0;
+}
+
+select, button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: #ff9800;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e68900;
+}
+
+.movie-display {
+    margin-top: 20px;
+}
+
+.movie-display img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.movie-display a {
+    display: block;
+    background-color: #ff9800;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.history-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.history-section li {
+    background-color: #333;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
