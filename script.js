@@ -9,7 +9,7 @@ const movies = [
         title: "Deadpool 3", 
         genres: ["Action", "Comedy", "Sci-Fi"], 
         poster: "https://image.tmdb.org/t/p/w500/5ik4ATKmNtmJU6AYD0bLm56BCVM.jpg",
-        trailer: "https://www.youtube.com/watch?v=LO3n67BQvh0"
+        trailer: "https://youtu.be/ZN8sfvFm_-4"
     },
     { 
         title: "Avatar: The Way of Water", 
